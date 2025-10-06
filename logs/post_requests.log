@@ -87084,3 +87084,67 @@
 2025-10-06 16:39:28 - INFO - ############################################################
 
 
+2025-10-06 16:40:28 - INFO - 
+############################################################
+2025-10-06 16:40:28 - INFO - ### INICIANDO CICLO DE REQUESTS SOAP ###
+2025-10-06 16:40:28 - INFO - ############################################################
+
+2025-10-06 16:40:29 - INFO - SOAP Request exitoso - Status: 200
+2025-10-06 16:40:29 - INFO - Total de registros encontrados: 1
+2025-10-06 16:40:29 - INFO -   - AE924VB: 2025-10-06 19:29:44
+2025-10-06 16:40:29 - INFO - Posiciones más recientes por patente: 1
+
+2025-10-06 16:40:29 - INFO - --- Procesando posición 1/1 ---
+2025-10-06 16:40:29 - INFO - === ENVIANDO POST ===
+2025-10-06 16:40:29 - INFO - URL: http://api.logictracker.com:8081/api/reception/positions/genericReception
+2025-10-06 16:40:29 - INFO - Payload: {
+  "eventoId": 0,
+  "patente": "AE924VB",
+  "fechaHora": "20251006192944",
+  "latitud": -24.13093,
+  "longitud": -63.989257,
+  "velocidad": 86,
+  "curso": 0
+}
+2025-10-06 16:40:30 - INFO - ✅ POST EXITOSO - Status: 200
+2025-10-06 16:40:30 - INFO - Respuesta: 
+2025-10-06 16:40:30 - INFO - ==================================================
+
+2025-10-06 16:40:30 - INFO - 
+############################################################
+2025-10-06 16:40:30 - INFO - ### CICLO COMPLETADO - 1 posiciones procesadas ###
+2025-10-06 16:40:30 - INFO - ############################################################
+
+
+2025-10-06 16:41:30 - INFO - 
+############################################################
+2025-10-06 16:41:30 - INFO - ### INICIANDO CICLO DE REQUESTS SOAP ###
+2025-10-06 16:41:30 - INFO - ############################################################
+
+2025-10-06 16:41:31 - INFO - SOAP Request exitoso - Status: 200
+2025-10-06 16:41:31 - INFO - Total de registros encontrados: 1
+2025-10-06 16:41:31 - INFO -   - AE924VB: 2025-10-06 19:29:44
+2025-10-06 16:41:31 - INFO - Posiciones más recientes por patente: 1
+
+2025-10-06 16:41:31 - INFO - --- Procesando posición 1/1 ---
+2025-10-06 16:41:31 - INFO - === ENVIANDO POST ===
+2025-10-06 16:41:31 - INFO - URL: http://api.logictracker.com:8081/api/reception/positions/genericReception
+2025-10-06 16:41:31 - INFO - Payload: {
+  "eventoId": 0,
+  "patente": "AE924VB",
+  "fechaHora": "20251006192944",
+  "latitud": -24.13093,
+  "longitud": -63.989257,
+  "velocidad": 86,
+  "curso": 0
+}
+2025-10-06 16:41:31 - INFO - ✅ POST EXITOSO - Status: 200
+2025-10-06 16:41:31 - INFO - Respuesta: 
+2025-10-06 16:41:31 - INFO - ==================================================
+
+2025-10-06 16:41:31 - INFO - 
+############################################################
+2025-10-06 16:41:31 - INFO - ### CICLO COMPLETADO - 1 posiciones procesadas ###
+2025-10-06 16:41:31 - INFO - ############################################################
+
+
