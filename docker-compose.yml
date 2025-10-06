@@ -1,0 +1,14 @@
+services:
+  soap-monitor:
+    build: .
+    container_name: logicrolux-soap-monitor
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs:/app/logs:Z
+      - ./imeis.data:/app/imeis.data:ro,Z
+      - ./.env:/app/.env:ro,Z
+    restart: unless-stopped
+    environment:
+      - TZ=America/Argentina/Buenos_Aires
+      
